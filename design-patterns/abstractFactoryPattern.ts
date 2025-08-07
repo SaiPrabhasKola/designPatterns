@@ -58,7 +58,7 @@ class BMWChassis extends Chassis {
 
 
 abstract class CarFactory {
-    abstract createEngine(): Engine
+    abstract createEngine(): IEngine
     abstract createChassis(): IChassis
 }
 
